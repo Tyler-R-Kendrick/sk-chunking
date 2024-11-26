@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18EF8D01-F7FC-40CA-B763-6D0AFCCB08AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chunking", "Chunking", "{0C13ACCE-2D28-492B-A708-CF6F4522FCE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chunking.Abstractions", "src\Chunking\Abstractions\Chunking.Abstractions.csproj", "{04A66F89-3AA6-4F3F-BC3D-889F04884EC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chunking.Json", "src\Chunking\Json\Chunking.Json.csproj", "{56BBCF15-6D04-4A6B-8229-ED892273AF29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04A66F89-3AA6-4F3F-BC3D-889F04884EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A66F89-3AA6-4F3F-BC3D-889F04884EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A66F89-3AA6-4F3F-BC3D-889F04884EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A66F89-3AA6-4F3F-BC3D-889F04884EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BBCF15-6D04-4A6B-8229-ED892273AF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BBCF15-6D04-4A6B-8229-ED892273AF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BBCF15-6D04-4A6B-8229-ED892273AF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BBCF15-6D04-4A6B-8229-ED892273AF29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C13ACCE-2D28-492B-A708-CF6F4522FCE7} = {18EF8D01-F7FC-40CA-B763-6D0AFCCB08AB}
+		{04A66F89-3AA6-4F3F-BC3D-889F04884EC1} = {0C13ACCE-2D28-492B-A708-CF6F4522FCE7}
+		{56BBCF15-6D04-4A6B-8229-ED892273AF29} = {0C13ACCE-2D28-492B-A708-CF6F4522FCE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F16C3BDF-3287-4035-B457-FFDC407D04D7}
+	EndGlobalSection
+EndGlobal
